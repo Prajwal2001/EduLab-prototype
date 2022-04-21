@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Kit
   - ic
+  - input_switch
+  - ic_lock_switch
   layers:
   - Default
   - TransparentFX

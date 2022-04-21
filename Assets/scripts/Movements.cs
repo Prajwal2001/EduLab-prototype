@@ -22,6 +22,6 @@ public class Movements : MonoBehaviour {
     }
     void Update() {
         if (Movements.movable) 
-            move();
+            this.move();
     }
 }
