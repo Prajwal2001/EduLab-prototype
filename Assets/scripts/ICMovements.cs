@@ -20,6 +20,11 @@ public class ICMovements : MonoBehaviour {
         if(Input.GetKey(KeyCode.S))
             transform.Translate(new Vector3(0,0,-speed * Time.deltaTime));
     }
+
+    void start() {
+        Debug.Log("hello");
+    }
+
     void Update() {
         if (ICMovements.movable && !Switch.ICLocked) 
             this.move();

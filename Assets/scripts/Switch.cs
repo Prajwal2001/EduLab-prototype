@@ -8,7 +8,6 @@ public class Switch : MonoBehaviour
     void OnMouseDown()
     {
         if (gameObject.tag == "ic_lock_switch" && ICHolder.collided) {
-            print("IC collided: " + ICHolder.collided);
             transform.Rotate(0.0f, 0.0f, 180.0f, Space.Self);
             ICMovements.movable = !ICMovements.movable;
             Switch.ICLocked = !Switch.ICLocked;

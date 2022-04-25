@@ -8,6 +8,12 @@ TagManager:
   - ic
   - input_switch
   - ic_lock_switch
+  - up_arrow
+  - down_arrow
+  - right_arrow
+  - left_arrow
+  - W
+  - S
   layers:
   - Default
   - TransparentFX
